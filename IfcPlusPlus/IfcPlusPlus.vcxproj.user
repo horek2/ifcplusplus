@@ -2,5 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ShowAllFiles>true</ShowAllFiles>
+    <BOOST_DIR>F:\Development\OpenSource\boost\boost_1_68_0</BOOST_DIR>
   </PropertyGroup>
 </Project>

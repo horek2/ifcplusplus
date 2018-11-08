@@ -4,12 +4,16 @@
     <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <QTDIR>D:\lib\Qt\5.10.1\msvc2017_64</QTDIR>
+    <QTDIR>F:\Development\OpenSource\Qt\5.11.2\msvc2017_64</QTDIR>
+    <BOOST_DIR>F:\Development\OpenSource\boost\boost_1_68_0</BOOST_DIR>
+    <OSG_DIR>F:\Development\OpenSource\IFC\OpenSceneGraph</OSG_DIR>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b..\..\..\IfcPlusPlus\bin%3b$(PATH)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <QTDIR>D:\lib\Qt\5.10.1\msvc2017_64</QTDIR>
+    <QTDIR>F:\Development\OpenSource\Qt\5.11.2\msvc2017_64</QTDIR>
+    <BOOST_DIR>F:\Development\OpenSource\boost\boost_1_68_0</BOOST_DIR>
+    <OSG_DIR>F:\Development\OpenSource\IFC\OpenSceneGraph</OSG_DIR>
     <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b"$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
